@@ -3,11 +3,9 @@
 "use strict";
 
 $(function(){
-
 	//Disable context menu
 	$(document).bind("contextmenu",function(e){
-		//return false;
-		return true;
+		return false;
 	});
 
 	//Initialize tabs
